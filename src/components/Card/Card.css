@@ -1,0 +1,20 @@
+.single-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  margin: 5px;
+  flex-direction: column;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 5px 10px 8px 10px #1f1e1e;
+}
+.image {
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+.single-card:hover {
+  transform: scale(1.1);
+}

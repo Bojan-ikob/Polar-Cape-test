@@ -1,0 +1,34 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+input {
+  padding: 5px;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  margin: 10px;
+  width: 350px;
+  height: 35px;
+  font-size: 18px;
+}
+button {
+  border: 1px solid orangered;
+  color: orangered;
+  background-color: black;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: orangered;
+  color: black;
+  transform: scale(1.1);
+}
+.input-div,
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

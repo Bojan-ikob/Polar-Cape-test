@@ -1,0 +1,19 @@
+.filters {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  margin: 0 auto;
+}
+.input {
+  width: 5px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.hide {
+  display: none;
+}
+.butt {
+  margin-left: 15px;
+}
